@@ -1,6 +1,6 @@
 # instalador-sql
-TODAS AS DEFINI«’ES DO ARQUIVO CONFIG, V√O DE ACORDO COM OS INPUTS DO ARQUIVO INDEX.PHP
-PORTANTO, SE COLOCAR APENAS 3 CAMPOS, O ARQUIVO CONFIG QUE SER¡ GERADO, S” TER¡ 3 DEFINI«’ES.
+TODAS AS DEFINI√á√ïES DO ARQUIVO CONFIG, V√ÉO DE ACORDO COM OS INPUTS DO ARQUIVO INDEX.PHP
+PORTANTO, SE COLOCAR APENAS 3 CAMPOS, O ARQUIVO CONFIG QUE SER√Å GERADO, S√ì TER√Å 3 DEFINI√á√ïES.
 
 EXEMPLO: 
 
@@ -10,13 +10,16 @@ index.php
 <input type="text" name="HOST_PDO" class="form-control" placeholder="localhost" />
 <input type="text" name="USUARIO_MYSQL" class="form-control" placeholder="root" />
 
+<input type="text" name="CAMPO_ALEATORIO" class="form-control" placeholder="blablalba" />
 
-config.php (que ser· gerado na instalaÁ„o)
+config.php (que ser√° gerado na instala√ß√£o)
 
 <?php
 define("DB_PDO","teste_instalador"); 
 define("HOST_PDO","localhost"); 
 define("USUARIO_MYSQL","root"); 
+
+define("CAMPO_ALEATORIO","blablabla"); 
 ?>
 
-… NECESS¿RIO A EXIST NCIA DOS CAMPOS PRA CONEX√O COM O MYSQL, PRA S” ASSIM CONSEGUIR IMPORTAR O ARQUIVO .SQL
+√â NECESS√ÅRIO A EXIST√äNCIA DOS INPUTS  DE CONEX√ÉO COM O MYSQL, PRA S√ì ASSIM CONSEGUIR IMPORTAR O ARQUIVO .SQL
